@@ -1,0 +1,32 @@
+{
+  "name": "attrithub",
+  "version": "0.1.0",
+  "description": "attrithub is a bash script to write an attribution from a github url",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aloisdg/attrithub"
+  },
+  "readme": "see [README.md](https://github.com/aloisdg/attrithub/blob/master/README.md)",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "keywords": [
+    "attrithub",
+    "attribution",
+    "github"
+  ],
+  "author": {
+    "name": "Alois de Gouvello",
+    "email": "aloisdg@gmail.com",
+    "url": "https://github.com/aloisdg"
+  },
+  "license": "MPL-2.0",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5"
+  }
+}
